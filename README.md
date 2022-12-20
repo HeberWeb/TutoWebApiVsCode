@@ -29,6 +29,14 @@ No meu caso foi necessário add --version 6.0.11 na instalação onde houve erro
 
 # Executar o mesmo Projeto no Linux(Ubuntu) Com Wsl, exatamente como foi criado no windows.
 
+# Erros ao clonar e abrir o projeto no Linux
+1. Execute qualquer comando no git, e será exibido a configuração para executar e corrigir.
+2. Nas notificações do VS Code Clique em Restore na notificação de resolução de dependencias da Extenção C#
+3. Terá outra notificação com a opção reload e clique na mesma.
+
+**Obs: As Referencias do EntityFrameworkCore serão corrigidas**
+
+# Instalação dos sdks caso ainda não tenha sido instalado no ubuntu
 1. Acesse https://learn.microsoft.com/pt-br/dotnet/core/install/linux-ubuntu.
 2. Verifique a versão no ubuntu:
 ```
