@@ -26,3 +26,23 @@ No meu caso foi necessário add --version 6.0.11 na instalação onde houve erro
 1. Neste tutorial não foi instalada a ferramenta httprepl, os testes foram feitos pelo swagger ou postman.
 2. Também não foi feito a alteração para usar o DTO(Conceito para esconde algumas propriedades do retorno ou post).
 
+
+# Executar o mesmo Projeto no Linux(Ubuntu) Com Wsl, exatamente como foi criado no windows.
+
+1. Acesse https://learn.microsoft.com/pt-br/dotnet/core/install/linux-ubuntu.
+2. Verifique a versão no ubuntu:
+```
+lsb_release -a
+```
+3. Identifique na doc qual versão e execute os comandos descritos para instalação dos sdks dotnet na versão desejada.
+4. Digite os comandos para executar a api.
+```
+dotnet build
+```
+```
+dotnet run
+```
+
+5. Será exibido a url configurada no arquivo /Properties/launchSettings.json onde é definido o profile do projeto.
+
+**Obs: Pelo ubuntu a execução não obtem sucesso ao pressionar Ctrl+F5**
